@@ -4,9 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-
-                int test_var = 1;
+            string outputText = "Hello there...world."; // Changing indentation here is an example to make this throw a linting error with Super-Linter
+            Console.WriteLine(outputText);
         }
     }
 }
