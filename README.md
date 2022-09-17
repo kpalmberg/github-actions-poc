@@ -1,6 +1,6 @@
 # About
 
-Primarly I've worked with Azure DevOps pipelines. This repository is for testing out and learning more about GitHub actions and how
+I have extensive experience with Azure DevOps YAML pipelines. This repository is intended for learning about GitHub Actions and how it differs compared to Azure DevOps pipelines and other CI/CD tools.
 
 ## Linter
 
