@@ -1,0 +1,24 @@
+name: lint-source-code
+on:
+  push:
+    branches-ignore:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Lint source code
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Recommended config based on Super-Linter docs
+      
+      - name: Execute linting
+        uses: github/super-linter@2d64ac1c067c34beaf7d24cc12733cd46236f76e # v4.9.5
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Auto populated secret for the GitHub App in the repo. See: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
