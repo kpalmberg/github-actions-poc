@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
 
-            int test_var = 1;
+                int test_var = 1;
         }
     }
 }
