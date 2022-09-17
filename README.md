@@ -1,6 +1,6 @@
 # About
 
-I have extensive experience with Azure DevOps YAML pipelines. This repository is intended for learning about GitHub actions and how it differs compared to Azure DevOps and other CI/CD tools.
+I have extensive experience with Azure DevOps YAML pipelines. This repository is intended for learning about GitHub actions and how it differs compared to Azure DevOps pipelines and other CI/CD tools.
 
 ## Linter
 
